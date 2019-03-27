@@ -1,5 +1,8 @@
 #pragma once
 #include "Coord.hpp"
+#include "BresenhamCell.hpp"
+#include "AStarCell.hpp"
+
 class Creature;
 class Map;
 
@@ -26,6 +29,8 @@ public:
 	void creature(Creature* _creature);
 	Coord coord();
 private:
+	BresenhamCell __bCell = BresenhamCell();
+	AStarCell __aCell = AStarCell();
 	Coord __coord = Coord(0, 0);
 	Type __type = unused;
 	Map* __map = nullptr;

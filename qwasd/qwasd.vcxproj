@@ -115,12 +115,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AStarCell.cpp" />
+    <ClCompile Include="BresenhamCell.cpp" />
     <ClCompile Include="Coord.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Map.cpp" />
     <ClCompile Include="Tile.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AStarCell.hpp" />
+    <ClInclude Include="BresenhamCell.hpp" />
     <ClInclude Include="Coord.hpp" />
+    <ClInclude Include="Map.hpp" />
     <ClInclude Include="Tile.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
