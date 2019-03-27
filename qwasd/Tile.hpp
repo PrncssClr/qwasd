@@ -12,12 +12,12 @@ public:
 	enum Type
 	{
 		unused = 0,
-		wNorth,
-		wSouth,
-		wEast,
-		wWest,
-		fRoom,
-		fHall
+		wNorth = 1,
+		wSouth = 2,
+		wEast = 4,
+		wWest = 8,
+		fRoom = 16,
+		fHall = 32
 	};
 	Tile();
 	Tile(Coord _c, Map* _map);
