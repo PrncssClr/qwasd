@@ -19,17 +19,17 @@ int Coord::x()
 
 int Coord::y()
 {
-	return this->y;
+	return this->__y;
 }
 
 void Coord::x(int _x)
 {
-	this->x = _x;
+	this->__x = _x;
 }
 
 void Coord::y(int _y)
 {
-	this->y = _y;
+	this->__y = _y;
 }
 
 Coord Coord::operator+(Coord rhs)
