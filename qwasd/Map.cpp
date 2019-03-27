@@ -48,9 +48,10 @@ void Map::generate()
 	//form a room around Seed
 
 	//pick random coordinates until a w____ Tile::Type is chosen
-		//Tile* considerant;
-		//while(((considerant = __map.at(rand()%__size.x(),rand()%__size.y())).type() & 15)==0){}
-
+		//Tile* prospective;
+		//while(((prospective = __map.at(rand()%__size.x(),rand()%__size.y())).type() & 15)==0){}
+                //...
+	
 	//decide whether to build room or hall
 		//build the thing
 
